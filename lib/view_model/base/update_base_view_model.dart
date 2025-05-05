@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../utils/result/api_result.dart';
-
+import '../../models/result/api_result.dart';
 class UpdateBaseViewModel<S, M> with ChangeNotifier {
   final S service;
 

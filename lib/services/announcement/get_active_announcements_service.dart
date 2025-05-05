@@ -1,6 +1,6 @@
 import '../../models/announcement/get_active_announcement_model.dart';
 import '../../models/announcement/get_announcement_request_model.dart';
-import '../../utils/result/data_api_result.dart';
+import '../../models/result/data_api_result.dart';
 import '../base/get_base_service.dart';
 
 class GetActiveAnnouncementsService extends GetBaseService {

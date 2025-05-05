@@ -1,5 +1,4 @@
-import '../../../utils/result/api_result.dart';
-import '../../models/login/profile_model.dart';
+import '../../models/result/api_result.dart';import '../../models/login/profile_model.dart';
 import '../base/update_base_service.dart';
 
 class UpdateProfileService extends UpdateBaseService {

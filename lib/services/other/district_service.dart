@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../models/other/district_model.dart';
-import '../../utils/response/data_api_response.dart';
-import '../../utils/result/data_api_result.dart';
+import '../../models/response/data_api_response.dart';
+import '../../models/result/data_api_result.dart';
 import '../../utils/constants/api_constants.dart';
 
 class DistrictService {

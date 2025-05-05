@@ -1,6 +1,6 @@
 import '../../models/announcement/update_announcement_model.dart';
+import '../../models/result/api_result.dart';
 import '../../services/announcement/update_announcement_service.dart';
-import '../../utils/result/api_result.dart';
 import '../base/update_base_view_model.dart';
 
 class UpdateAnnouncementViewModel extends UpdateBaseViewModel<UpdateAnnouncementService, UpdateAnnouncementModel> {

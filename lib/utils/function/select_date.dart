@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../design/dialog_design/quick_alert_utils.dart';
+import '../../views/widgets/dialog_design/quick_alert_utils.dart';
 
 Future<void> selectDate({
   required BuildContext context,

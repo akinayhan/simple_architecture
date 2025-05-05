@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../models/login/forgot_password_model.dart';
+import '../../models/response/my_data_api_response.dart';
 import '../../utils/constants/api_constants.dart';
-import '../../utils/response/my_data_api_response.dart';
-import '../../utils/result/data_api_result.dart';
+import '../../models/result/data_api_result.dart';
 
 class ForgotPasswordService {
   static const String baseUrl = ApiConstants.apiUrl;

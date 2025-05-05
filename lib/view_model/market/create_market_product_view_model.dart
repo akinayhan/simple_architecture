@@ -1,7 +1,6 @@
 import '../../../models/market/create_market_product_model.dart';
 import '../../../services/market/create_market_product_service.dart';
-import '../../../utils/result/api_result.dart';
-import '../base/create_base_view_model.dart';
+import '../../models/result/api_result.dart';import '../base/create_base_view_model.dart';
 
 class CreateMarketProductViewModel extends CreateBaseViewModel<CreateMarketProductService, CreateMarketProductModel> {
   CreateMarketProductViewModel() : super(CreateMarketProductService());

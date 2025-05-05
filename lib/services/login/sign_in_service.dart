@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../../utils/constants/api_constants.dart';
-import '../../../utils/response/single_data_api_response.dart';
 import '../../models/login/login_response_model.dart';
 import '../../models/login/sign_in_model.dart';
-import '../../utils/result/data_api_result.dart';
+import '../../models/response/single_data_api_response.dart';
+import '../../models/result/data_api_result.dart';
 
 class SignInService {
   static const String baseUrl = ApiConstants.apiUrl;

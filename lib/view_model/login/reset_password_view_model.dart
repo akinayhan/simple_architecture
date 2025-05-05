@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../utils/result/api_result.dart';
 import '../../../../services/login/reset_password_service.dart';
 import '../../models/login/reset_password_model..dart';
+import '../../models/result/api_result.dart';
 
 class ResetPasswordViewModel with ChangeNotifier {
   final ResetPasswordService _resetPasswordService;

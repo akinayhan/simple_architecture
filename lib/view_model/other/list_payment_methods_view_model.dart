@@ -2,8 +2,7 @@ import 'package:flutter/foundation.dart';
 import '../../models/other/payment_method_model.dart';
 import '../../models/other/get_payment_methods_request_model.dart';
 import '../../services/other/list_payment_methods_service.dart';
-import '../../utils/result/data_api_result.dart';
-
+import '../../models/result/data_api_result.dart';
 class ListPaymentMethodsViewModel extends ChangeNotifier {
   DataApiResult<List<PaymentMethodModel>> _result = DataApiResult(success: false, messages: []);
   DataApiResult<List<PaymentMethodModel>> get result => _result;

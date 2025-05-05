@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../utils/result/api_result.dart';
+import '../../models/result/api_result.dart';
 import '../../services/login/logout_service.dart';
 
 class LogOutViewModel with ChangeNotifier {

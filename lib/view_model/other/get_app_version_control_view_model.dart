@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/other/get_app_version_control_model.dart';
 import '../../services/other/get_app_version_control_service.dart';
-import '../../utils/result/data_api_result.dart';
-
+import '../../models/result/data_api_result.dart';
 class GetAppVersionControlViewModel extends ChangeNotifier {
   DataApiResult<List<GetAppVersionControlModel>> _result = DataApiResult(success: false, messages: []);
   DataApiResult<List<GetAppVersionControlModel>> get result => _result;

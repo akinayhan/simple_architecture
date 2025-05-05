@@ -1,6 +1,6 @@
 import '../../models/announcement/create_announcement_model.dart';
+import '../../models/result/api_result.dart';
 import '../../services/announcement/create_announcement_service.dart';
-import '../../utils/result/api_result.dart';
 import '../base/create_base_view_model.dart';
 
 class CreateAnnouncementViewModel extends CreateBaseViewModel<CreateAnnouncementService, CreateAnnouncementModel> {

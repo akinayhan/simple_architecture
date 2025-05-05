@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../../../../utils/navigate/navigate_to_login.dart';
-import '../../../../utils/result/data_api_result.dart';
+import '../../models/response/single_data_api_response.dart';
+import '../../models/result/data_api_result.dart';
 import '../../utils/constants/api_constants.dart';
-import '../../utils/response/single_data_api_response.dart';
+import '../../views/navigate/navigate_to_login.dart';
 
 class GetBaseSingleItemService {
   final String baseUrl = ApiConstants.apiUrl;

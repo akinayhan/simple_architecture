@@ -1,8 +1,7 @@
 import 'package:flutter/foundation.dart';
 import '../../models/other/district_model.dart';
 import '../../services/other/district_service.dart';
-import '../../utils/result/data_api_result.dart';
-
+import '../../models/result/data_api_result.dart';
 class DistrictViewModel extends ChangeNotifier {
   DataApiResult<List<DistrictModel>> _result = DataApiResult(success: false, messages: []);
   DataApiResult<List<DistrictModel>> get result => _result;

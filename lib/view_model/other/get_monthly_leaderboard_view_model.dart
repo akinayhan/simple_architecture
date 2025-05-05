@@ -1,8 +1,7 @@
 import 'package:flutter/foundation.dart';
 import '../../models/other/get_leader_board_model.dart';
 import '../../services/other/get_monthly_leaderboard_service.dart';
-import '../../utils/result/data_api_result.dart';
-
+import '../../models/result/data_api_result.dart';
 class GetMonthlyLeaderboardViewModel extends ChangeNotifier {
   DataApiResult<List<GetLeaderBoardModel>> _result = DataApiResult(success: false, messages: []);
   DataApiResult<List<GetLeaderBoardModel>> get result => _result;

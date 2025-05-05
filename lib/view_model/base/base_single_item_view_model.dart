@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
-import '../../utils/result/data_api_result.dart';
-
+import '../../models/result/data_api_result.dart';
 abstract class BaseSingleItemViewModel<T> extends ChangeNotifier {
   DataApiResult<T> _result = DataApiResult(success: false, messages: []);
   DataApiResult<T> get result => _result;

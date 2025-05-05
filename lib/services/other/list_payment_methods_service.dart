@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../models/other/payment_method_model.dart';
 import '../../models/other/get_payment_methods_request_model.dart';
+import '../../models/response/data_api_response.dart';
+import '../../models/result/data_api_result.dart';
 import '../../utils/constants/api_constants.dart';
-import '../../utils/navigate/navigate_to_login.dart';
-import '../../utils/response/data_api_response.dart';
-import '../../utils/result/data_api_result.dart';
+import '../../views/navigate/navigate_to_login.dart';
 
 class ListPaymentMethodsService {
   static const String baseUrl = ApiConstants.apiUrl;

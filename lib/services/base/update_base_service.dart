@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../../../utils/navigate/navigate_to_login.dart';
+import '../../models/response/api_response.dart';
+import '../../models/result/api_result.dart';
 import '../../utils/constants/api_constants.dart';
-import '../../utils/response/api_response.dart';
-import '../../../utils/result/api_result.dart';
+import '../../views/navigate/navigate_to_login.dart';
 
 abstract class UpdateBaseService {
   final String baseUrl = ApiConstants.apiUrl;

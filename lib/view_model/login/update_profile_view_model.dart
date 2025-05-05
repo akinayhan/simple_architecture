@@ -1,5 +1,5 @@
-import '../../../../utils/result/api_result.dart';
 import '../../models/login/profile_model.dart';
+import '../../models/result/api_result.dart';
 import '../../services/login/update_profile_service.dart';
 import '../base/update_base_view_model.dart';
 

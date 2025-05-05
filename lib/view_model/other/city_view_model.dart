@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/other/city_model.dart';
 import '../../services/other/city_service.dart';
-import '../../utils/result/data_api_result.dart';
-
+import '../../models/result/data_api_result.dart';
 class CityViewModel extends ChangeNotifier {
   DataApiResult<List<CityModel>> _result = DataApiResult(success: false, messages: []);
   DataApiResult<List<CityModel>> get result => _result;

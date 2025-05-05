@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../../models/login/reset_password_model..dart';
+import '../../models/response/api_response.dart';
+import '../../models/result/api_result.dart';
 import '../../utils/constants/api_constants.dart';
-import '../../utils/response/api_response.dart';
-import '../../utils/result/api_result.dart';
 
 class ResetPasswordService {
   static const String baseUrl = ApiConstants.apiUrl;

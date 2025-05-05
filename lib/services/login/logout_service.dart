@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import '../../models/result/api_result.dart';
 import '../../utils/constants/api_constants.dart';
-import '../../utils/result/api_result.dart';
 
 class LogOutService {
   static const String baseUrl = ApiConstants.apiUrl;

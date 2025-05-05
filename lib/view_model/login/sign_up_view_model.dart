@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../../utils/result/api_result.dart';
 import '../../../models/login/sign_up_model.dart';
 import '../../../services/login/sign_up_service.dart';
+import '../../models/result/api_result.dart';
 
 class SignUpViewModel with ChangeNotifier {
   final SignUpService _signUpService;

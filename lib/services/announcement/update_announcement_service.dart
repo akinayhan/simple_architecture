@@ -1,5 +1,5 @@
 import '../../models/announcement/update_announcement_model.dart';
-import '../../utils/result/api_result.dart';
+import '../../models/result/api_result.dart';
 import '../base/update_base_service.dart';
 
 class UpdateAnnouncementService extends UpdateBaseService {

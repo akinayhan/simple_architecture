@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'ui/login/sign_in_page.dart';
-import 'ui/menu/menu/menu_page.dart';
 import 'utils/function/app_providers.dart';
-import 'utils/theme/dark_theme.dart';
-import 'utils/theme/light_theme.dart';
-import 'utils/theme/theme_utils.dart';
+import 'views/screens/login/sign_in_page.dart';
+import 'views/screens/menu/menu/menu_page.dart';
+import 'views/theme/dark_theme.dart';
+import 'views/theme/light_theme.dart';
+import 'views/theme/theme_utils.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

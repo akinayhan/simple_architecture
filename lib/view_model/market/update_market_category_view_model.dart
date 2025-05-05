@@ -1,7 +1,6 @@
 import '../../../models/market/update_market_category_model.dart';
 import '../../../services/market/update_market_category_service.dart';
-import '../../../utils/result/api_result.dart';
-import '../base/update_base_view_model.dart';
+import '../../models/result/api_result.dart';import '../base/update_base_view_model.dart';
 
 class UpdateMarketCategoryViewModel extends UpdateBaseViewModel<UpdateMarketCategoryService, UpdateMarketCategoryModel> {
   UpdateMarketCategoryViewModel() : super(UpdateMarketCategoryService());

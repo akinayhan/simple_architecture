@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../models/login/forgot_password_model.dart';
 import '../../../../services/login/forgot_password_service.dart';
-import '../../../../utils/result/data_api_result.dart';
+import '../../models/result/data_api_result.dart';
 
 class ForgotPasswordViewModel extends ChangeNotifier {
   bool _isLoading = false;

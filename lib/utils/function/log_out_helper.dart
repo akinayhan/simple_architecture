@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../utils/navigate/navigate_to_login.dart';
-import '../../utils/design/dialog_design/quick_alert_utils.dart';
+import '../../models/result/api_result.dart';
 import '../../utils/function/delete_shared_preferences.dart';
-import '../../utils/result/api_result.dart';
 import '../../view_model/login/log_out_view_model.dart';
+import '../../views/navigate/navigate_to_login.dart';
+import '../../views/widgets/dialog_design/quick_alert_utils.dart';
 
 class LogOutHelper {
   static Future<void> logOut(BuildContext context, String token) async {
